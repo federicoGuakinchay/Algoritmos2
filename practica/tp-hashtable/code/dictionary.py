@@ -50,3 +50,29 @@ def delete(D,key):
     else: 
         D[position] = []
         return D
+
+    
+    
+    ''' a little test '''
+D = create_dictionary(11)
+print(D)
+print(f'mod 54{54 % 11}')
+insert(D,20,'hola_20')
+insert(D,66,'hola_66')
+insert(D,20,'hola_13')
+#insert(D,54,'hola_54')
+insert(D,84,'hola_84')
+insert(D,96,'hola_96')
+insert(D,102,'hola_102')
+insert(D,204,'hola_204')
+insert(D,22,'hola_22')
+insert(D,21,'hola_21')
+
+a=search(D,66)
+print(a)
+a=search(D,4)
+print(a)
+D=delete(D,4)
+print(D)
+D=delete(D,66)
+print(D)
