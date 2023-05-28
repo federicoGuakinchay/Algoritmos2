@@ -1,7 +1,3 @@
-my_set = {1,2,3,4,5,6}
-set2   = my_set.copy()
-print(my_set.difference(set2))
-print (my_set.difference(set2)==set())
 #las aristas seran  3-tuplas   donde  el primer elemento sera  el vertice de donde sale la arista
 #el segundo sera el vertice al que llega  y el ultomo  será el peso de la arista .
 def create_a_graph_MA(Vertices,Aristas):
